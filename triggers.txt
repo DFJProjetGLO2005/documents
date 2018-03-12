@@ -1,0 +1,13 @@
+Liste de conditions qui devront être respectées dans la BD:
+
+.Pour toutes les lignes, Poste 1 != Poste 2
+.Tous les postes ont des lignes.
+    (before delete/update on ligne ... )
+    (before insert on ligne, verifier que les postes existes)
+    (verifier pour les postes aussi)
+
+.Tous les points de raccordement apparaissent une et une seule fois dans Ligne Poste 1 OU Ligne Poste 2
+    .Stratégiques, Satellites et Sources peuvent avoir de 2 à plusieurs lignes
+    .transformateur sur poteau de bois a de 2 à 6 lignes
+.Empêcher les insertions directes vers des classes parentes (postes, equipements)
+.EID : numéro spécial pour chaque catégorie d'équipement
