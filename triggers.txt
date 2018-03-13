@@ -11,3 +11,14 @@ Liste de conditions qui devront être respectées dans la BD:
     .transformateur sur poteau de bois a de 2 à 6 lignes
 .Empêcher les insertions directes vers des classes parentes (postes, equipements)
 .EID : numéro spécial pour chaque catégorie d'équipement
+
+
+
+
+.Before insert on dérivée
+    insert into base
+
+.Before insert on base
+    make sure that NEW contains all of dérivée's attributes 
+(Est-ce qu'on pourrait faire une insertion sur équipements traffiquée avec
+trop d'attributs?)
