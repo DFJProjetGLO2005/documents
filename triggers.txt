@@ -1,5 +1,9 @@
 Liste de conditions qui devront être respectées dans la BD:
 
+
+.Insertions dans des tables en relations bi-totales: https://stackoverflow.com/questions/5178697/mysql-insert-into-multiple-tables-database-normalization 
+
+
 .Pour toutes les lignes, Poste 1 != Poste 2
 .Tous les postes ont des lignes.
     (before delete/update on ligne ... )
