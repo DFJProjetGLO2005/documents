@@ -1,0 +1,36 @@
+HTML: faire tableau
+
+
+--------------------------------------------------
+index.html
+
+consulter les bris par priorité:
+    .par estimation de consommation 
+    .par nombre d'abonnés
+    .par ancienneté
+
+Un bris est représenté par:
+    nom d'équipement | ville | date début
+   
+
+
+Pour chaque bris:
+    .Nombre d'abonnées | estimation de consommation privée qui est |
+     Conditions météorologiques au moment du bris
+
+    .TABLEAU avec tous les abonnés
+     nom | téléphone
+
+    .Résourdre le bris
+
+
+
+Consulter consommations par villes:
+    en ordre de consommations
+    Pour chaque ville, consulter consommations par abonnés:
+        en ordre de consommations
+        Pour chaque abonné, consulter consommations par mois:
+        en ordre chronologique (possibilité de restreindre la plage temporelle)
+
+Pour chaque ville, consulter liste équipements:
+    Quantité par type
